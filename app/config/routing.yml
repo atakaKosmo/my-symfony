@@ -1,3 +1,8 @@
+paes_comune:
+    resource: "@PaesComuneBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 paes_user:
     resource: "@PaesUserBundle/Controller/"
     type:     annotation
