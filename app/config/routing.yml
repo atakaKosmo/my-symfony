@@ -1,0 +1,5 @@
+paes_user:
+    resource: "@PaesUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
