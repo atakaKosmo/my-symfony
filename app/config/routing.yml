@@ -1,3 +1,13 @@
+paes_area_produttiva:
+    resource: "@PaesAreaProduttivaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+paes_amministratore:
+    resource: "@PaesAmministratoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 paes_comune:
     resource: "@PaesComuneBundle/Controller/"
     type:     annotation

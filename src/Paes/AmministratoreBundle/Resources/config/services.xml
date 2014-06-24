@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+       <service id="paes_amministratore.form.type.user" class="Paes\AmministratoreBundle\Form\Type\UserType">
+            <tag name="form.type" alias="amministratore_user_type" />
+        </service>
+
+        <service id="paes_amministratore.form.type.comune" class="Paes\AmministratoreBundle\Form\Type\ComuneType">
+            <tag name="form.type" alias="amministratore_comune_type" />
+        </service>
+
+        <service id="paes_amministratore.form.type.areaproduttiva" class="Paes\AmministratoreBundle\Form\Type\AreaProduttivaType">
+            <tag name="form.type" alias="amministratore_areaproduttiva_type" />
+        </service>
+
+    </services>
+
+</container>
